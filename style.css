@@ -1,0 +1,48 @@
+.container {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.container-topo {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+.botao {
+  display: flex;
+  background-color: white;
+  border: 0;
+  color: rgb(231, 50, 111);
+  font-size: large;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.imagem {
+  height: 80px;
+}
+
+.container-corpo {
+  background-color: rgb(235, 20, 92);
+  padding: 10px 60px;
+}
+
+.descricao {
+  color: white;
+  font-size: 38px;
+  font-weight: 500;
+}
+.container-corpo p {
+  color: white;
+  font-size: 25px;
+}
+
+.form {
+  background-color: white;
+  border-radius: 15px;
+}
+.form p {
+  color: black;
+}
