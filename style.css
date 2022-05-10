@@ -1,48 +1,26 @@
-.container {
-  margin: 0 auto;
-  width: 40%;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.container-topo {
-  background-color: rgb(255, 255, 255);
+body {
+  background-color: #ff0778;
+}
+.topo {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 90px;
+  width: 100%;
+  background-color: white;
 }
+
 .botao {
-  display: flex;
   background-color: white;
   border: 0;
-  color: rgb(231, 50, 111);
-  font-size: large;
-  font-weight: bold;
-  padding-right: 20px;
+  color: #ff0778;
+  margin-right: 10px;
+  font-weight: 900;
+  font-size: 18px;
 }
 
-.imagem {
-  height: 80px;
-}
-
-.container-corpo {
-  background-color: rgb(235, 20, 92);
-  padding: 10px 60px;
-}
-
-.descricao {
+.texto {
   color: white;
-  font-size: 38px;
-  font-weight: 500;
-}
-.container-corpo p {
-  color: white;
-  font-size: 25px;
-}
-
-.form {
-  background-color: white;
-  border-radius: 15px;
-}
-.form p {
-  color: black;
 }
