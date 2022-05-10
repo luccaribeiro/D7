@@ -42,6 +42,7 @@ body {
   background-color: white;
   border-radius: 5px;
   padding: 20px;
+  margin-bottom: 80px;
 }
 
 .formulario p {
@@ -87,6 +88,4 @@ footer img {
 
 .busca img {
   width: 16px;
-  text-align: center;
-  vertical-align: center;
 }
